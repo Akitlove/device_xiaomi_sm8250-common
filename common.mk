@@ -188,12 +188,17 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    libMegviiFacepp-0.5.2 \
+    libmegface \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64
 
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libgui_vendor \
+    libpiex \
+    libpiex_shim \
+    libpng.vendor \
     libstdc++_vendor \
     libutilscallstack.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
